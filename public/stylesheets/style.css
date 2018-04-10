@@ -1,0 +1,152 @@
+
+
+.btn-config{
+  width:100%;
+}
+
+.cards{
+  
+  border:1px solid #ccc;
+  padding:0px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border-radius:6px;
+}
+.grant{
+  padding: 10px;
+}
+.sideCards {
+  height:475px;
+  border:1px solid #ccc;
+  padding:0px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border-radius:6px;
+}
+
+.cardMenu{
+  background: #ddd;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  /* color: #6B6FCE; */
+  border-bottom: 1px solid #ccc;
+}
+
+.mainContent{
+  height:250px;
+  margin-top:10px;
+  font-weight: bold;
+}
+
+a{
+  cursor:pointer;
+}
+
+.sideMainContent{
+  margin-top:10px;
+  font-weight: bold;
+  height: 410px;
+}
+
+.contactDetails{
+  border: 1px solid #ccc;
+  border-left: 6px solid #f0ad4e;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.jumb-modify{
+  text-align: center;
+  background: #AB183D;
+  background-color: #3f51b5;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  color:white;
+  border-radius: 0px;
+  height: 150px;
+}
+
+.push{
+  margin-top:-12px;
+  font-weight:bold;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.menuSetting{
+  text-align: center;
+  background: #00bcd4;
+  color:white;
+  height:35px;
+  line-height: 2.5;
+}
+
+.menus{
+  color:white;
+  cursor:pointer;
+}
+
+.divHeight{
+  height:45px;
+}
+
+.row-height{
+  height: 152px;
+}
+
+
+.spaceTop {
+  margin-top:15px;
+}
+
+
+
+.rate-base-layer
+        {
+            color: #aaa;
+        }
+        .rate-hover-layer
+        {
+            color: orange;
+        }
+        .rate2
+        {
+            font-size: 35px;
+        }
+        .rate2 .rate-hover-layer
+        {
+            color: pink;
+        }
+        .rate2 .rate-select-layer
+        {
+            color: red;
+        }
+        .im
+        {
+            background-image: url('./images/heart.gif');
+            background-size: 32px 32px;
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+        }
+        .im2
+        {
+            background-image: url('./images/emoji5.png');
+            background-size: 164px 164px;
+            background-repeat: no-repeat;
+            width: 164px;
+            height: 164px;
+            display: inline-block;
+        }
+        #rate5 .rate-base-layer span, #rate7 .rate-base-layer span
+        {
+            opacity: 0.5;
+        }
+        hr
+        {
+            border: 1px solid #ccc;
+        }
+        p
+        {
+            font-size: 35px;
+        }
