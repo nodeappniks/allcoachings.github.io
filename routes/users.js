@@ -4,14 +4,14 @@ var bodyParser = require('body-parser');
 /* GET users listing. */
 router.post("/", function(req, res, next) {
   var MongoClient = require("mongodb").MongoClient;
-  var url = "mongodb://localhost:27017/";
-
+  // var url = "mongodb://localhost:27017/";
+  var url = "mongodb://nitish:123456@ds063536.mlab.com:63536/";
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     var dbo = db.db("sample");
     var myobj = { name: "Company Inc", address: "Highway 37" };
     dbo
-      .collection("users")
+      .collection("user")
       .findOne({ username: req.body.username, password: req.body.password }, function(err, result) {
         // if (err) throw err;
         if (result != null) {

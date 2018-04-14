@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var MongoClient = require("mongodb").MongoClient;
-var url = "mongodb://localhost:27017/";
+// var url = "mongodb://localhost:27017/";
+var url = "mongodb://nitish:nitish@123@mongodb/";
 
 /* GET home page. */
 router.post('/', function(req, res, next) {
@@ -22,7 +23,7 @@ router.post('/', function(req, res, next) {
                 tag: req.body.tag,
                 time: JSON.parse(req.body.time)
             };
-            var dbo = db.db("sample");
+            var dbo = db.db("coaching");
             
             dbo
               .collection("coaching")

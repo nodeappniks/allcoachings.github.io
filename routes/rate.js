@@ -4,11 +4,12 @@ var bodyParser = require('body-parser');
 
 router.post("/", function(req, res, next) {
     var MongoClient = require("mongodb").MongoClient;
-  var url = "mongodb://localhost:27017/";
+  // var url = "mongodb://localhost:27017/";
+  var url = "mongodb://nitish:nitish@123@mongodb/";
 
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
-    var dbo = db.db("sample");
+    var dbo = db.db("coaching");
     var raqtingDetails = {
         rateName: req.body.rateName,
         rateComment: req.body.rateComment,

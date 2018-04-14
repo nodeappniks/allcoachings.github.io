@@ -8,10 +8,11 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
   var MongoClient = require("mongodb").MongoClient;
-  var url = "mongodb://localhost:27017/";
+  // var url = "mongodb://localhost:27017/";
+  var url = "mongodb://nitish:nitish@123@mongodb/";
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
-    var dbo = db.db("sample");
+    var dbo = db.db("coaching");
     
     dbo
       .collection("coaching")
